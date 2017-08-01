@@ -11,8 +11,17 @@ import {
   Text,
   View
 } from 'react-native';
-
+import DeviceInfo from 'react-native-device-info'
+// import {ModelInfo,//手机型号
+//         DeviceName,//手机系统名称
+//         Version,//手机系统版本
+//         AppVersion,//App版本
+//         Imei,//手机ID
+//       } from './main/common/DeviceInfo';
 export default class GoodThingsHappenEverday extends Component {
+  componentDidMount(){
+    
+  }
   render() {
     return (
       <View style={styles.container}>
@@ -20,7 +29,7 @@ export default class GoodThingsHappenEverday extends Component {
           Welcome to React Native!
         </Text>
         <Text style={styles.instructions}>
-          To get started, edit index.android.js
+          
         </Text>
         <Text style={styles.instructions}>
           Double tap R on your keyboard to reload,{'\n'}
